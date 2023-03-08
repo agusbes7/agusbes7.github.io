@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0">
+  <title>CV curriculum </title>
+
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/1150/1150635.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Shantell+Sans&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div id="contenedor">
+  <!---------------TITULO---------------------------------------------->
+  <header>
+    <H1>CV - curriculum vitae </H1>
+  </header>
+  <nav>
+    <ul>
+      <li id="inicio"><a  onclick="alerta()" href="#">Inicio</a></li>
+      <li><a onclick="alerta()" href="#">Registrarse</a></li>
+      <li><a  href="contacto.html">contactar</a> </li>
+      <li><a  download href="CV curriculum.pdf">Descargar</a> </li>
+      <li id="ayuda"><a onclick="alertaAy()" href="#">Ayuda</a> </li>
+    </ul>
+
+  </nav>
+
+  <section class="col-0">
+    <h3>Datos personales</h3>
+       
+             <!---------------------DATOS PERSONALES---------------------------------------->
+      <section class="col-1">
+        <p class="datos"> Nombre:</p>
+        <p class="datos"> Apellido:</p>
+        <p class="datos"> Mail:</p>
+        <p class="datos"> Telefono:</p>
+        <p class="datos"> Estado civil:</p>
+        <p class="datos"> Nacionalidad</p>
+        <p class="datos"> Fecha de nacimiento:</p>
+        <p class="datos"> Direccion:</p>
+      </section>
+      <!--------->
+      <section class="col-2">
+        <p class="persona">Candice</p>
+        <p class="persona">Fox</p>
+        <p class="persona">candice.fox@example.com</p>
+        <p class="persona">(3256) 2619-6127</p>
+        <p class="persona">soltera</p>
+        <p class="persona">Argentina</p>
+        <p class="persona">7/3/1995</p>
+        <p class="persona">5617 Daisy Dr</p>
+      </section>
+      <!--------->
+   <section class="col-3">
+    
+    <img  src="candice.jpg" alt="foto para curriculum de una chica"></section>
+  
+  </section>
+    <!------------------------Formacion academica---------------------------->
+    <section id="botones">
+    
+      <button onclick="ocultarmostrar(1)"  id="uno">1</button>
+      <button onclick="ocultarmostrar(2)" id="dos">2</button>
+      <button onclick="ocultarmostrar(3)" id="tres">3</button>
+      
+        </section>
+
+
+
+    <section class="col-0">
+
+     
+      <section class="col-4">
+        
+        <section id="foraca">
+          <h3>Formacion academica</h3>
+        <p class="persona">Secundario completo en Esc N° 3 Hermana Rosalia de Borges</p>
+        <p class="persona">Bachiller con Orientacion: Comunicación Social</p>
+        <p class="persona">promocion 2020</p>
+        <p class="persona">Universitario incompleto</p>
+        <p class="persona">Cursando 3er año</p>
+        <p class="persona">Ing.Sistemas de informacion en UTN FRSF</p>
+      </section></section>
+   
+ 
+ 
+   
+
+
+<section class="col-4">
+  
+  <section id="habyapti">
+    <h3>Habilidades y aptitudes</h3>
+  <p class="persona">Nivel intermedio de ingles</p>
+  <p class="persona">manejo de paquete office</p>
+        <ul>
+        <li class="persona">Word</li>
+        <li class="persona">Excel</li>
+        <li class="persona">Powerpoint</li>
+        <li class="persona">One Note</li>
+        <li class="persona">Publisher</li>
+        </ul>
+  <p class="persona">manejo de canva</p>
+  <p class="persona"></p>
+        <ul>
+          <li class="persona">oralidad</li>
+          <li class="persona">trabajo en equipo</li>
+          <li class="persona">redaccion</li>
+          <li class="persona">edicion de fotografia y video</li>
+          <li class="persona">conocimientos contables</li>
+          </ul>
+  </section>  </section>
+
+
+<section class="col-4">
+  
+  <section id="infadi">
+    <h3>Informacion adicional </h3>
+<p  class="persona">sin experiencia laboral</p>
+<p class="persona">He Trabajado de manera informal en un Kiosco familiar</p>
+<p class="persona">voluntaria en <a  href="https://conciencia.org/">asociacion conciencia</a> programa Uniendo Metas desde 2019 4 años capacitando estudiantes de escuelas secundarias</p>
+<p class="persona">profesora particular nivel secundario (matematica, fisica, quimica)</p>
+</section>  </section>
+</section>
+
+ 
+  <script src = "funciones.js"></script>
+    
+</body>
+
+</html>

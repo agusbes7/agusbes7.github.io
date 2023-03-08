@@ -1,0 +1,258 @@
+#contenedor{
+  width: 100%;
+max-width: 1400px;
+  margin:0 auto;
+}
+  /*-----------------------------------------------*/
+* {box-sizing: border-box;
+  text-align: center;
+ 
+}
+
+header{ 
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 96%;
+font-size: 80%;
+padding: 1%;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+border: 8px solid rgb(8, 59, 8); 
+background-color: rgb(157, 209, 152);}
+
+/*-----------------------------------------------*/
+nav{ 
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+margin-top: 2%;
+margin-bottom: 2%;
+border-left: none;
+position: relative;}
+nav a{
+  padding: 1%;
+  font-size: 80%;}  
+ul{
+display: inline;}
+li{
+  display: inline;
+ padding: 1%;}
+ li a{ 
+  border: 3px solid black;
+  font-family:Arial, Helvetica, sans-serif;
+  text-decoration: none solid rgb(68, 68, 68);
+  background-color: rgb(157, 209, 152);
+  color: #000000;
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-decoration: none;}
+
+/*---------------------------------------------------------------------*/
+ [class*="col-"] {
+float: left;}
+
+.col-0{width: 96%;
+margin-left: 2%;
+margin-right: 2%;
+margin-bottom: 1%;
+background-color: antiquewhite;
+position: relative;}  
+
+.col-1{width: 25%;
+position: relative;
+left: 2%;
+background-color:  rgb(236, 190, 129);
+height: 100%;} 
+
+.col-2{width: 45%;
+  position: relative;
+  left: 4%;
+  background-color: white;
+  height: 100%;
+margin-bottom: 1%;}
+
+.col-3{ width: 30%;
+position: relative;}
+
+.col-3 img{
+background-size: contain;
+width: max-content;
+max-width: 62%;
+ top: 25%;
+ height: auto;
+border: 1px solid black;
+position: relative;
+left:5%;}
+
+.col-4{width: 100%;
+background-color: white;
+position: absolute;
+}  
+/*-----------------------------------------------*/
+#habyapti{display:none;}
+
+#foraca{display:none;}
+
+#infadi{display:none;}
+
+#botones{position: relative;
+  margin: 1%;}
+
+
+/*-----------------------------------------------*/
+.datos {
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Shantell Sans', 'cursive';
+  font-size: 80%;
+    color: #000000;
+ text-decoration: none solid rgb(68, 68, 68);}
+    
+.persona{
+    font-family: 'Shantell Sans', 'cursive';
+    font-size: 80%;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);}
+/*-----------------------------------------------*/    
+ h3{
+  background-color:  red;
+  font-size: 100%;
+position: relative;}
+
+      
+.persona a,#enviar{
+    color: blue;
+   text-decoration: underline solid blue ;}
+ li a:hover, #enviar{
+    color: blueviolet;
+    border:3px solid blueviolet;
+    cursor: pointer;}
+
+.persona a:hover{
+  color: blueviolet;
+  cursor: pointer;}
+
+
+#pform,textarea{width: 80%;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;}
+input, #textarea{
+    margin: 2%;
+    padding: 1%;
+    border: 2px solid black;
+    font-size: 80%;
+   ;}  
+
+
+
+
+
+
+/*------------------------------------------*/
+
+@media  (max-width: 1250px){
+    .col-3 img{   max-width: 66%;
+      margin-top: 5%;
+    top: 0%;}}
+/*-------------------------------------*/
+@media  (max-width: 1000px){
+  li a{border:2px solid black;}
+  .col-3 img{   max-width: 71%;
+    margin-top: 10%;
+  }}
+/*-------------------------------------*/     
+@media  (max-width: 850px){
+  header{ 
+      padding: 0%;
+      border: 6px solid rgb(8, 59, 8); }
+  .col-3 img{  max-width: 75%;
+  margin-top: 12%;}}
+/*-------------------------------------*/ 
+@media  (max-width: 750px){
+  .col-3 img{  max-width: 78%;
+  margin-top: 17%;}}
+/*-------------------------------------*/ 
+@media  (max-width: 650px){
+  header{ 
+    border: 4px solid rgb(8, 59, 8);}
+  li a{border:1px solid black;}
+ nav li{padding: 0.5%;}
+  .col-1{
+    width: 25%;
+    left: 1%;
+    background-color: rgb(236, 190, 129);
+    height: 100%;} 
+  .col-2{
+    width: 70%;
+    font-size: 100% ;}
+   .col-3{
+    width: 25%;
+    text-align: end;
+    left: 73%;}
+    .col-3 img{
+      max-width: 100%;
+      margin-top: -70%;
+    }}
+/*-------------------------------------*/ 
+@media  (max-width: 558px){  
+    .col-3{  left: 49%;}}
+/*-------------------------------------*/ 
+@media  (max-width: 450px){
+   header{ 
+   border: 2px solid rgb(8, 59, 8);
+   width: 100%;
+   margin-left: 0%;
+   margin-right: 0%;
+   font-size: 60%;
+   background-color:  rgb(131 255 119 / 79%); }
+   li a{border:1px solid black;
+   background-color: rgb(62 255 44 / 72%);}
+   nav a{ font-size: 70%;}
+   .col-1{display: none;}
+   .col-2{width: 50%;
+   left: 5%;}
+   .col-3{
+   text-align: center;
+   position: relative;
+   width: 40%; 
+   left: 20%;
+   margin-top:0%;   
+   margin-bottom:0%;}           
+   .col-3 img{
+   margin-top: 1%;
+   left: -30%;}
+   .persona, ul .persona{
+   text-align: justify;}}
+/*------------------------------------------*/
+@media  (max-width: 380px){
+  header{ 
+    border: 1px solid rgb(8, 59, 8);
+    padding: 1%;
+    margin-left: 0%;
+     font-size: 50%;}
+nav{padding: 1%;
+right: 10%;}
+
+nav li{padding: 0.5%;}
+    li a{border:1px solid black;
+    background-color: rgb(62 255 44 / 72%);}
+    nav a{ font-size: 70%;}}
+    @media  (max-width: 360px){
+      #inicio{display: none;}
+    }
+@media  (max-width: 280px){
+      #ayuda{display: none;}
+    .col-0{width: 100%;
+  margin-left: 0%;
+  margin-right: 0%;}
+    .col-2{width: 90%;}
+    .col-3{
+        width: 45%;
+        text-align: end;
+        left: 68%;}
+    .col-3 img{
+          max-width: 100%;
+          margin-top: -70%;}}
+      
